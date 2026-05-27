@@ -1,6 +1,6 @@
 # 🐱 Cat Meme Generator
 
-A fun and interactive meme generator built with React and Vite that allows users to generate cat memes using still images, and GIFs.
+A fun and interactive meme generator built with React and Vite that allows users to generate cat memes using still images, GIFs, or GIF-only mode based on selected emotions.
 
 ---
 
