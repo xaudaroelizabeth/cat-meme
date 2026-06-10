@@ -1,19 +1,67 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# 🐱 Cat Meme Generator
+
+A fun and interactive meme generator built with React and Vite that allows users to generate cat memes using still images, GIFs, or GIF-only mode based on selected emotions.
+
+---
+
+## ✨ Features
+
+- Generate random cat memes
+- Choose between still images and GIFs
+- Dynamic meme rendering
+- Responsive modern UI
+- Fast and interactive experience
+
+---
+
+## 🛠️ Built With
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Meme/GIF APIs
+
+---
+
+## 🚀 Getting Started
+
+Install dependencies and start the development server:
+
+```bash
 npm install
-npm start
+npm run dev
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Once the server is running, open your browser and navigate to:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```text
+http://localhost:5173
+```
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+---
 
-Happy Coding!
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed using Netlify.
+
+---
+
+## 📸 Preview
+
+<img width="516" height="628" alt="image" src="https://github.com/user-attachments/assets/e44efe9b-92f7-46ef-a4b4-1fa0777415e6" />
+<img width="582" height="630" alt="image" src="https://github.com/user-attachments/assets/a4a1c384-3f5c-4452-b19b-4aac40944d9e" />
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes.
