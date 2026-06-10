@@ -3,6 +3,23 @@ html, body {
     font-family: 'Karla', sans-serif;
 }
 
+body{
+
+    /* Prevents your text or headers from clipping into the top status bar/notch */
+        padding-top: env(safe-area-inset-top);
+    
+        /* Prevents your bottom nav bars from clipping into the iOS swipe-home gesture line */
+        padding-bottom: env(safe-area-inset-bottom);
+    
+        /* Disables the elastic 'rubber-band' scrolling default on web browsers */
+        overscroll-behavior: none;
+    
+        /* Prevents standard long-press callout menus on text/links */
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+}
+
 /*typography*/
 
 h1, h2, h3{
@@ -132,7 +149,8 @@ input[type="radio"]{
     justify-content: center;
     border: 1px solid #67595e;
     border-radius: 5px;
-    width: 420px;
+    width: 100%;
+    max-width: 420px;
     height: 490px;
     background-color: #fff0ee;
 }

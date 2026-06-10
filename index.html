@@ -5,6 +5,15 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+
+	<!-- Prevent user scaling so inputs/buttons don't zoom automatically like a website -->
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+	<!-- Blends the top status bar/safe-areas with your application's brand color -->
+	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+
 </head>
 
 <body>
@@ -28,10 +37,10 @@
 			<button class="get-image-btn" id="get-image-btn">Get Image</button>
 		</div>
 	</main>
-		<div class="meme-modal" id="meme-modal">
-			<button class="meme-modal-close-btn" id="meme-modal-close-btn">X</button>
-			<div id="meme-modal-inner"></div>
-		</div>
+	<div class="meme-modal" id="meme-modal">
+		<button class="meme-modal-close-btn" id="meme-modal-close-btn">X</button>
+		<div id="meme-modal-inner"></div>
+	</div>
 	<script src="index.js" type="module"></script>
 </body>
 
