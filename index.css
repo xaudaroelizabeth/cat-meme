@@ -137,6 +137,9 @@ input[type="radio"]{
 }
 
 /* modal */
+.modal-wrapper{
+    padding: 10px;
+}
 
 .meme-modal{
     display: none; /*flex when displayed*/
@@ -153,6 +156,11 @@ input[type="radio"]{
     max-width: 420px;
     height: 490px;
     background-color: #fff0ee;
+    padding: 10px;
+}
+
+#meme-modal-inner {
+    overflow: hidden;
 }
 
 .cat-img{
@@ -178,3 +186,4 @@ input[type="radio"]{
     background-color: #bd301d;
     border: 2px solid #bd301d;
 }
+
